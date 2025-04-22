@@ -1,14 +1,40 @@
 # Trendy Tastes: Identifying and Visualising Evolving Customer Preferences Using Yelp Reviews
 
 ## Executive Summary
-  This project aims to extract actionable insights from Yelp reviews to help businesses adapt to evolving customer preferences in the food and hospitality sector. We identify shifting 
-  demands around food, ambience, and service quality by applying sentiment analysis, topic modeling, and trend detection techniques. Our goal is to guide restaurants and marketers in 
-  realigning their offerings and strategies with real-time customer expectations.
+  In the fast-paced restaurant industry, customer preferences are constantly evolving. This project leverages NLP and time-series analysis on Yelp review data to uncover customer       
+  sentiments and emerging trends. By focusing on food quality, ambiance, and service, we aim to help businesses adapt offerings to align with current market demands. The final output 
+  includes a filtered dataset for Arizona and California, sentiment scoring, and a framework for region-based trend visualization.
+  
+## Business Impact
+  - Restaurant Owners: Gain actionable insights to optimise menus, ambience, and service.
+  - Marketers: Design hyper-local campaigns driven by actual customer feedback.
+  - Platforms like Yelp: Integrate sentiment-trend APIS for premium business analytics tools.
+
   
 ## Problem Statement
-Customer preferences change rapidly in the food and hospitality industry, but businesses often lack tools to monitor these shifts proactively. This results in missed opportunities to meet current market demands.
+  Customer tastes evolve quickly, but businesses struggle to track and respond to these changes in real-time. By analyzing Yelp reviews across selected regions and restaurant types, we 
+  aim to answer:
+  - What are the dominant sentiments in customer feedback?
+  - What trends are emerging across regions or time?
+  - How can businesses take proactive actions based on these trends?
 
-## Key Questions:
-- What are customers currently saying about food, ambience, and service?
-- How have preferences changed over time in specific geographies?
-- Can businesses use these insights to adjust menus, renovate spaces, or tailor marketing?
+## Project Scope
+  Restaurant Focus: Breakfast Places
+  Geographic Scope: Arizona (AZ) and California (CA)
+  Review Categories: Food, Ambiance, and Service
+
+## Methodology
+  1. Data Extraction
+  - Yelp dataset accessed via AWS S3
+  - Focused on Arizona & California
+  - Filtered to businesses in the restaurant category
+  
+  2. Sentiment Analysis
+  - Processed review texts using NLTK and SpaCy
+  - Applied sentiment polarity scoring (positive/negative/neutral)
+  
+  3. Trend Detection & Topic Modeling
+  - Aggregated reviews by date and location
+  - Identified rising keywords, cuisines, and ambiance preferences over time
+
+
