@@ -9,7 +9,6 @@
   - Restaurant Owners: Gain actionable insights to optimise menus, ambience, and service.
   - Marketers: Design hyper-local campaigns driven by actual customer feedback.
   - Platforms like Yelp: Integrate sentiment-trend APIS for premium business analytics tools.
-
   
 ## Problem Statement
   Customer tastes evolve quickly, but businesses struggle to track and respond to these changes in real-time. By analyzing Yelp reviews across selected regions and restaurant types, we 
@@ -19,9 +18,9 @@
   - How can businesses take proactive actions based on these trends?
 
 ## Project Scope
-  Restaurant Focus: Breakfast Places
-  Geographic Scope: Arizona (AZ) and California (CA)
-  Review Categories: Food, Ambiance, and Service
+  - Restaurant Focus: Breakfast Places
+  - Geographic Scope: Arizona (AZ) and California (CA)
+  - Review Categories: Food, Ambience, and Service
 
 ## Methodology
   1. Data Extraction
@@ -33,8 +32,8 @@
   - Processed review texts using NLTK and SpaCy
   - Applied sentiment polarity scoring (positive/negative/neutral)
   
-  3. Trend Detection & Topic Modeling
+  3. Trend Detection & Topic Modelling
   - Aggregated reviews by date and location
-  - Identified rising keywords, cuisines, and ambiance preferences over time
+  - Identified rising keywords, cuisines, and ambience preferences over time
 
 
