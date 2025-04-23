@@ -36,4 +36,12 @@
   - Aggregated reviews by date and location
   - Identified rising keywords, cuisines, and ambience preferences over time
 
+## Tools & Technologies
+  ## Component	      ## Tools Used
+   - Cloud Storage	    AWS S3
+   - Data Processing	  Python, Pandas, NumPy
+   - NLP & Modeling	    NLTK, SpaCy, Scikit-learn, TensorFlow (optional)
+   - Visualization	    Seaborn, Matplotlib, Plotly
+   - Database	          SQL 
+
 
