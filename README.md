@@ -37,11 +37,32 @@
   - Identified rising keywords, cuisines, and ambience preferences over time
 
 ## Tools & Technologies
-  ## Component	      ## Tools Used
-   - Cloud Storage	    AWS S3
-   - Data Processing	  Python, Pandas, NumPy
-   - NLP & Modeling	    NLTK, SpaCy, Scikit-learn, TensorFlow (optional)
-   - Visualization	    Seaborn, Matplotlib, Plotly
-   - Database	          SQL 
+  ## Component	        Tools Used
+   - Cloud Storage ->	     AWS S3
+   - Data Processing ->	   Python, Pandas, NumPy
+   - NLP & Modeling ->	   NLTK, SpaCy, Scikit-learn, TensorFlow (optional)
+   - Visualization ->	     Seaborn, Matplotlib, Plotly
+   - Database	->           SQL
+
+## Sample Use Cases
+ - Detect an increase in mentions of plant-based food in Phoenix → update menu
+ - Rising preference for outdoor seating → Adjust ambience plans
+ - Negative sentiment about wait times → optimise staffing or service flow
+
+## Key Outputs
+ - Cleaned Yelp business and review data for AZ/CA
+ - Sentiment distribution plots by category and city
+ - Filtered trends showing evolving customer expectations
+   
+## Future Scope
+ - Expand analysis to other U.S. regions
+ - Automate trend alerts for restaurant owners
+ - Incorporate demographic overlays for even richer insight
+ - Real-time trend monitoring dashboard using Streamlit
+   
+## Data Sources
+ - Yelp Open Dataset
+ - Kaggle reviews datasets for benchmarking sentiment
+ - Public demographic datasets (for future expansion)
 
 
