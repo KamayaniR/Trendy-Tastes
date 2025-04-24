@@ -1,9 +1,12 @@
 # Trendy Tastes: Identifying and Visualising Evolving Customer Preferences Using Yelp Reviews
+  [Dataset link](https://business.yelp.com/data/resources/open-dataset/)
 
 ## Executive Summary
-  In the fast-paced restaurant industry, customer preferences are constantly evolving. This project leverages NLP and time-series analysis on Yelp review data to uncover customer       
-  sentiments and emerging trends. By focusing on food quality, ambiance, and service, we aim to help businesses adapt offerings to align with current market demands. The final output 
-  includes a filtered dataset for Arizona and California, sentiment scoring, and a framework for region-based trend visualization.
+  In the fast-paced restaurant industry, customer preferences are constantly evolving. This project leverages NLP and time-series analysis 
+  on Yelp review data to uncover customer       
+  sentiments and emerging trends. By focusing on food quality, ambience, and service, we aim to help businesses adapt offerings to meet 
+  current market demands. The final output 
+  includes a filtered dataset for Arizona and California, sentiment scoring, and a framework for region-based trend visualisation.
   
 ## Business Impact
   - Restaurant Owners: Gain actionable insights to optimise menus, ambience, and service.
