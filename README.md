@@ -65,7 +65,6 @@
    
 ## Data Sources
  - Yelp Open Dataset
- - Kaggle reviews datasets for benchmarking sentiment
  - Public demographic datasets (for future expansion)
 
 
